@@ -94,7 +94,6 @@ export function Comissoes(){
         <Container>
             <h1>Comissões</h1>
             <Card>
-                
                 <Separator />
                 <Table renderBody={renderBody} contentBody={contentBody} contentHead={contentHead} />
             </Card>

@@ -14,7 +14,7 @@ export function Home(){
 
             <FlexRow>
             <Card flexWidth={2}>
-                <h3>Ganhos do mês</h3>
+                <h3>Meus ganhos em setembro</h3>
                 <Separator />        
                 <FlexRow>
                     <Card flexWidth={3}>
