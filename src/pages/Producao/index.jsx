@@ -166,7 +166,7 @@ const renderBody = (item, i)=>{
 export function Producao(){
     return (
         <Container>
-            <h1>Producao</h1>
+            <h1>Produção</h1>
             <Card>
                 <FlexRow>
                     <Search title="Selecione o mês: " options={optionsMouth} button/>
