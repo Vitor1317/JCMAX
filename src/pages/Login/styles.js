@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import fundo from "../../assets/fundo.jpg"
 
 export const Wrapper = styled.div`
     background-color: ${({theme})=> theme.gray6};
@@ -10,6 +11,9 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url(${fundo});
+    background-repeat: no-repeat;
+    background-size: cover;
 `;
 
 export const LoginCard = styled.div`
@@ -18,7 +22,7 @@ export const LoginCard = styled.div`
     align-items: center;
     justify-content: space-between;
 
-    background: ${({theme})=> theme.gray8};
+    background: repeating-linear-gradient(90deg, ${({theme})=> theme.yellow7}, ${({theme})=> theme.gray4});
     width: 30rem;
     border-radius: 8px;
 
