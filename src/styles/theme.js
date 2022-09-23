@@ -15,6 +15,9 @@ export const lightTheme = {
     gray7: "#29292E",
     gray8: "#202024",
     gray9: "#121214",
+    gray10: "#43455D",
+
+    blue5: "teal"
 };
 export const darkTheme = {
     yellow1: "#fef9c3",
@@ -33,4 +36,5 @@ export const darkTheme = {
     gray7: "#29292E",
     gray8: "#202024",
     gray9: "#121214",
+    gray10: "#43455D"
 };

@@ -2,6 +2,20 @@ import styled from "styled-components";
 
 export const HomeContainer = styled.div`
     width: 100%;
+
+    div {
+        &.flex{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        &.flexicon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 `;
 
 export const Separator = styled.div`

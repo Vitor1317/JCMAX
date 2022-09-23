@@ -88,5 +88,6 @@ export const LoginContent = styled.div`
 
     h1 {
         font-size: 3rem;
+        color: ${({theme})=> theme.yellow4};
     }
 `;

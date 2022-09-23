@@ -1,8 +1,8 @@
 import { CardContainer } from "./styles";
 
-export function Card({children, flexWidth = 1}){
+export function Card({children, flexWidth = 1, bg, direction }){
     return (
-        <CardContainer flexWidth={flexWidth}>
+        <CardContainer direction={direction} flexWidth={flexWidth} bg={bg}>
             {children}
         </CardContainer>
     )

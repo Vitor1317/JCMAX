@@ -26,7 +26,7 @@ export function Recibos(){
                 <Separator />
 
                 <RecibosContainer>
-                    <Recibo recepient="Corretora" recepientName="JC max" amount={70000} />
+                    <Recibo recepient="JCMAX" recepientName="JCMAX" amount={70000} />
                     <Recibo recepient="Corretor" recepientName="Gustavo" amount={700} />
                     <Recibo recepient="Supervisor" recepientName="Breno" amount={7000} />
                 </RecibosContainer>

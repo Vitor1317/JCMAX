@@ -4,7 +4,7 @@ export const ReciboContainer = styled.div`
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    background-color: ${({theme})=> theme.gray9};
+    background-color: ${({theme})=> theme.gray6};
     border-radius: 8px;
 
     h1 {

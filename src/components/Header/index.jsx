@@ -30,7 +30,7 @@ export function Header(){
                     <Separator />
                     <NavLink to="/">
                         <Key size={20} />
-                        <span>Editar Perfil</span>
+                        <span>Editar Senha</span>
                     </NavLink>
                     <Separator />
                     <NavLink to="/login">

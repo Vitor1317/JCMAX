@@ -2,6 +2,7 @@ import {Table} from "../../components/Table";
 import { Card } from "../../components/Card"
 import { Search } from "../../components/Search"
 import { Container, FlexRow, Separator} from "./styles"
+import { Input } from "../../components/inputs";
 
 const optionsMouth = [
     "Janeiro",
@@ -29,123 +30,123 @@ const contentHead = [
 const contentBody = [
     {
         dia: "01/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "02/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "03/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "04/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "05/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "06/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "07/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "08/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "09/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "10/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "11/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "12/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "13/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "14/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "15/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "16/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "17/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "18/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "19/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "20/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "21/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "22/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "23/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "24/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "25/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "26/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "27/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "28/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "29/09/2022",
-        content: 0
+        content: (<Input />)
     },
     {
         dia: "30/09/2022",
-        content: 0
+        content: (<Input />)
     }
 ]
 

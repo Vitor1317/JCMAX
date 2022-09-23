@@ -2,8 +2,7 @@ import {Card} from "../../components/Card";
 import { Table } from "../../components/Table";
 import { Separator } from "../Home/styles";
 import { Container } from "./styles";
-
-import { FilePdf } from "phosphor-react";
+import { IconsTable } from "../../components/IconsTable";
 
 const contentHead = [
     "ID", "Proprietário", "End. do Imóvel", "Data" ,"Cpf", "Valor", "Arquivo"
@@ -17,7 +16,7 @@ const contentBody = [
         cpf: "123123123-34",
         data: "17/04/22",
         valor: 500.00,
-        arquivo: <FilePdf size={20} color="red" style={{cursor: "pointer"}} />
+        arquivo: <IconsTable /> 
     },
     {
         id: 2,
@@ -26,7 +25,7 @@ const contentBody = [
         cpf: "123123123-34",
         data: "17/04/22",
         valor: 500.00,
-        arquivo: <FilePdf size={20} color="red" style={{cursor: "pointer"}} />
+        arquivo: <IconsTable /> 
     },
     {
         id: 3,
@@ -35,7 +34,7 @@ const contentBody = [
         cpf: "123123123-34",
         data: "17/04/22",
         valor: 500.00,
-        arquivo: <FilePdf size={20} color="red" style={{cursor: "pointer"}} />
+        arquivo: <IconsTable /> 
     },
     {
         id: 4,
@@ -44,7 +43,7 @@ const contentBody = [
         cpf: "123123123-34",
         data: "17/04/22",
         valor: 500.00,
-        arquivo: <FilePdf size={20} color="red" style={{cursor: "pointer"}} />
+        arquivo: <IconsTable /> 
     },
     {
         id: 5,
@@ -53,7 +52,7 @@ const contentBody = [
         cpf: "123123123-34",
         data: "17/04/22",
         valor: 500.00,
-        arquivo: <FilePdf size={20} color="red" style={{cursor: "pointer"}} />
+        arquivo: <IconsTable /> 
     },
     {
         id: 6,
@@ -62,7 +61,7 @@ const contentBody = [
         cpf: "123123123-34",
         data: "17/04/22",
         valor: 500.00,
-        arquivo: <FilePdf size={20} color="red" style={{cursor: "pointer"}} />
+        arquivo: <IconsTable /> 
     },
     {
         id: 7,
@@ -71,7 +70,7 @@ const contentBody = [
         cpf: "123123123-34",
         data: "17/04/22",
         valor: 500.00,
-        arquivo: <FilePdf size={20} color="red" style={{cursor: "pointer"}} />
+        arquivo: <IconsTable /> 
     }
 ]
 

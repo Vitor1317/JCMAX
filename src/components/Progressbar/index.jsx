@@ -8,7 +8,7 @@ export function Progressbar(){
                 <Target size={30} />
             </div>
             <div className="progress">
-                <progress max={100} value={75}></progress>
+                <progress max={100} value={75}>75%</progress>
                 <strong>Faltam apenas 25% para voce atingir sua meta</strong>
             </div>
         </ProgressContainer>

@@ -57,6 +57,11 @@ export const  LinksContainer = styled.div`
         font-size: 1rem;
         border-radius: 8px;
     }
+    
+    a:not(.active):hover{
+        background-color: ${({theme})=> theme.yellow3};
+        color: ${({theme})=> theme.gray9}; 
+    }
 
     a.active{
         background: ${({theme})=> theme.yellow6};

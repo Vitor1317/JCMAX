@@ -9,10 +9,8 @@ export function Login(){
                 <img src={logo} alt="Logotipo" />
                 <h1>Bem vindo a JCMAX</h1>
                 <p>Para entra em contato ligue para nós</p>
-                <div>
-                    <h3>(61)99999-9999</h3>
-                    <h3>(61)3333-3333</h3>
-                </div>
+                <h3>(61)99999-9999</h3>
+                <h3>(61)3333-3333</h3>
             </LoginContent>
             <LoginCard>
                 <div className="top">
