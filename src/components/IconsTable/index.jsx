@@ -4,8 +4,12 @@ import { FilePdf, Pencil } from "phosphor-react";
 export function IconsTable(){
     return (
         <Container>
-            <FilePdf size={24} color="red"/>
-            <Pencil size={24} color="teal"/>
+            <div title="Ver PDF">
+                <FilePdf size={24} color="red"/>
+            </div>
+            <div title="Editar">
+                <Pencil size={24} color="teal"/>
+            </div>
         </Container>
     )
 }

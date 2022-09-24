@@ -3,10 +3,14 @@ LinksContainer,
 LogoContainer, 
 Separator, 
 SidebarContainer, 
-IconToggle
+IconToggle, 
+Profile, 
+ModalContent 
 } from "./styles";
 
 import logo from "../../assets/logo.png";
+
+import { Dropdown } from "../Dropdown";
 
 import { 
 ChartLineUp,
@@ -15,9 +19,12 @@ CurrencyDollar,
 ProjectorScreenChart,
 Receipt,
 ChartPieSlice,
-Newspaper,
 UsersThree,
-List
+List,
+DotsThreeVertical, 
+PencilLine, 
+Key, 
+SignOut
 } from "phosphor-react";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
@@ -27,49 +34,43 @@ const arrayLinks = [
         id: 1,
         to: "/",
         text: "Home",
-        icon: <HouseLine size={20} />
+        icon: <HouseLine size={18} />
     },
     {
         id: 2,
         to: "/producao",
         text: "Produção",
-        icon:  <ChartLineUp size={20} />
+        icon:  <ChartLineUp size={18} />
     },
     {
         id: 3,
         to: "/comissao",
         text: "Comissões",
-        icon: <CurrencyDollar size={20} />
+        icon: <CurrencyDollar size={18} />
     },
     {
         id: 4,
         to: "/pontos",
         text: "Tabela de Pontos",
-        icon: <ProjectorScreenChart size={20} />
+        icon: <ProjectorScreenChart size={18} />
     },
     {
         id: 5,
         to: "/recibos",
         text: "Recibos",
-        icon: <Receipt size={20} />
+        icon: <Receipt size={18} />
     },
     {
         id: 6,
         to: "/ganhos",
         text: "Ganhos",
-        icon: <ChartPieSlice size={20} />
-    },
-    {
-        id: 7,
-        to: "/arquivos",
-        text: "Arquivos",
-        icon: <Newspaper size={20} />
+        icon: <ChartPieSlice size={18} />
     },
     {
         id: 8,
         to: "/equipe",
         text: "equipe",
-        icon: <UsersThree size={20} />
+        icon: <UsersThree size={18} />
     }
 ]
 
@@ -99,6 +100,43 @@ export function Sidebar(){
                 ))
             }
            </LinksContainer>
+           <div>
+            <Dropdown 
+                    title={<Profile>
+                        <img src="https://centralferola.com.br/storage/profiles_pictures/bruno-pontes-dos-santos-161972692864.jpeg" alt="" />
+                        {open && (
+                            <>
+                            <div className="flex">
+                                <strong>Bruno Pontes</strong>
+                                <small>(Administrador)</small>
+                            </div>
+                            <DotsThreeVertical size={28} />
+                            </>
+                        )}
+                    </Profile>}
+                >
+                {open && (
+                    <ModalContent>
+                    <strong>Configurações</strong>
+                    <Separator />
+                    <NavLink to="/alterarDados">
+                        <PencilLine size={23} />
+                        <span>Editar Informações pessoais</span>
+                    </NavLink>
+                    <Separator />
+                    <NavLink to="/alterarSenha">
+                        <Key size={20} />
+                        <span>Editar Senha</span>
+                    </NavLink>
+                    <Separator />
+                    <NavLink to="/login">
+                        <SignOut size={20} />
+                        <span>Sair</span>
+                    </NavLink>
+                </ModalContent>
+                )}
+            </Dropdown>
+           </div>
         </SidebarContainer>
     )
 }

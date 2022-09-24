@@ -26,9 +26,9 @@ export function Recibos(){
                 <Separator />
 
                 <RecibosContainer>
-                    <Recibo recepient="JCMAX" recepientName="JCMAX" amount={70000} />
-                    <Recibo recepient="Corretor" recepientName="Gustavo" amount={700} />
-                    <Recibo recepient="Supervisor" recepientName="Breno" amount={7000} />
+                    <Recibo background={1} recepient="JCMAX" recepientName="JCMAX" amount={70000} />
+                    <Recibo background={3} recepient="Corretor" recepientName="Gustavo" amount={700} />
+                    <Recibo background={2} recepient="Supervisor" recepientName="Breno" amount={7000} />
                 </RecibosContainer>
             </Card>
         </Container>

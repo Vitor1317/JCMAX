@@ -6,19 +6,20 @@ export const Title = styled.div`
     position: relative;
     display: flex;
     align-items: center;
-    padding-right: 2.4rem;
     z-index: 10;
 `;
 
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
+    width: 100%;
     background: #fff;
     color: black;
-    margin-top: 0.75rem;
     border-radius: 8px;
     position: absolute;
-    right: -10;
+    top: 0;
+    left: calc(100% + 1.5rem);
+    top: -200%;
     z-index: 10;
 
     &::before {
@@ -46,12 +47,12 @@ const modifiers = {
     open: ()=> css`
         opacity: 1;
         pointer-events: auto;
-        transform: translateY(0);
+        transform: translateX(0);
     `,
     close: ()=> css`
         opacity: 0;
         pointer-events: none;
-        transform: translateY(-2rem);
+        transform: translateX(-2rem);
     `
 }
 
@@ -62,7 +63,7 @@ export const DropdownContainer = styled.div`
 
         ${Content},
         ${Overlay}{
-            transition: transform 0.2s ease-in , opacity 0.3s ease-in-out;
+            transition: transform 0.35s ease-in , opacity 0.3s ease-in-out;
             ${isOpen && modifiers.open()}
             ${!isOpen && modifiers.close()}
         }

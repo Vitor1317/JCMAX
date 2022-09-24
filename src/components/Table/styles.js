@@ -13,7 +13,7 @@ export const TableContainer = styled.div`
         th{
             background-color: ${({theme})=> theme.gray6};
             padding: 1rem;
-            text-align: left;
+            text-align: center;
             color: #fff;
             font-size: 0.875rem;
             line-height: 1.6;
@@ -36,6 +36,7 @@ export const TableContainer = styled.div`
             padding: 1rem;
             font-size: 0.875rem;
             line-height: 1.6;
+            text-align: center;
 
             &:first-child {
                 padding-left: 1.5rem;

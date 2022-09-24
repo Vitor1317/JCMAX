@@ -1,8 +1,9 @@
 import {Table} from "../../components/Table";
 import { Card } from "../../components/Card"
 import { Search } from "../../components/Search"
-import { Container, FlexRow, Separator} from "./styles"
+import { ButtonFixed, Container, FlexRow, Separator} from "./styles"
 import { Input } from "../../components/inputs";
+import { FloppyDisk } from "phosphor-react";
 
 const optionsMouth = [
     "Janeiro",
@@ -166,7 +167,7 @@ const renderBody = (item, i)=>{
 export function Producao(){
     return (
         <Container>
-            <h1>Produção</h1>
+            <h1>Produção <small>Cadastrar</small></h1>
             <Card>
                 <FlexRow>
                     <Search title="Selecione o mês: " options={optionsMouth} button/>
@@ -176,6 +177,9 @@ export function Producao(){
         
                 <Table renderBody={renderBody} contentBody={contentBody} contentHead={contentHead} />
             </Card>
+            <ButtonFixed title="Salvar">
+                <FloppyDisk size={30} />
+            </ButtonFixed>
         </Container>
     )
 }

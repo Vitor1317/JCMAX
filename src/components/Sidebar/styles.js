@@ -10,7 +10,8 @@ export const SidebarContainer = styled.div`
 
     display: flex;
     flex-direction: column;
-    align-items: ${({activeSidebar})=> !activeSidebar ? "center" : ""};;
+    align-items: ${({activeSidebar})=> !activeSidebar ? "center" : ""};
+    justify-content: space-between;
     padding: 2.5rem 1rem;
     box-shadow: 0.5rem 0.5rem 0.5rem ${({theme})=> theme.gray6};
 `;
@@ -19,6 +20,7 @@ export const LogoContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: -3rem;
 
     img{
         object-fit: cover;
@@ -34,27 +36,22 @@ export const IconToggle = styled.div`
     }
 `;
 
-export const Separator = styled.div`
-    width: 100%;
-    height: 1px;
-    background: #757575;
-    margin: 2rem 0;
-`
-
 export const  LinksContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
 
     a{
-        height: 3.25rem;
+        height: 2.75rem;
         padding: 1rem;
+        margin-top: 0.3rem;
         display: flex;
+        align-items: center;
         gap: 1rem;
         color: ${({theme})=> theme.gray1};
 
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 0.875rem;
         border-radius: 8px;
     }
     
@@ -68,4 +65,45 @@ export const  LinksContainer = styled.div`
         font-weight: bold;
     }
 
+`;
+
+export const Profile = styled.div`
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    background: ${({theme})=> theme.yellow7};
+    border-radius: 8px;
+    cursor: pointer;
+
+    img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    div.flex{
+        display: flex;
+        flex-direction: column;
+    }
+`;
+
+export const Separator = styled.div`
+    width: 100%;
+    height: 0.5px;
+    background-color: ${({theme})=> theme.gray3};
+    margin: 0.8rem 0;
+`;
+
+export const ModalContent = styled.div`
+    margin: 1rem;
+
+    a {
+        display: flex;
+        color: ${({theme})=> theme.gray9};
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+    }
 `;

@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 export const HomeContainer = styled.div`
     width: 100%;
+    
+    h1 > small {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
 
     div {
         &.flex{

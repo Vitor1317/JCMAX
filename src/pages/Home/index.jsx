@@ -15,7 +15,7 @@ Calculator
 export function Home(){
     return (
         <HomeContainer>
-            <h1>Home</h1>
+            <h1>Home <small>Dashboard</small></h1>
             <Card>
                 <div className="flex">
                     <ChartLineUp size={24} />
