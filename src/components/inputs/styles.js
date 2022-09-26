@@ -4,11 +4,11 @@ export const InputContainer = styled.input`
     width: 4rem;
     height: 2rem;
     text-align: center;
-    border: 2px solid ${({theme})=> theme.gray8};
-    background-color: ${({theme})=> theme.gray3};
+    border: 1px solid ${({theme})=> theme.gray9};
+    color: ${({theme})=> theme.color};
+    background-color: ${({theme})=> theme.input};
 
-    &::-webkit-inner-spin-button
-    {
+    &::-webkit-inner-spin-button{
         -webkit-appearance: none;
     }
 `;

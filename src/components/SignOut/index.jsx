@@ -13,7 +13,7 @@ export function Signout(){
                     <input type="text" placeholder="Email"/>
                     <input type="password" placeholder="senha" />
                     <input type="password" placeholder="repita a senha" />
-                    <NavLink to="/">
+                    <NavLink to="/login">
                         <button>
                             Cadastrar
                         </button>

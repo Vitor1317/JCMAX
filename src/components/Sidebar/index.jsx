@@ -11,6 +11,7 @@ ModalContent
 import logo from "../../assets/logo.png";
 
 import { Dropdown } from "../Dropdown";
+import { Switch } from "../Switch";
 
 import { 
 ChartLineUp,
@@ -128,6 +129,11 @@ export function Sidebar(){
                         <Key size={20} />
                         <span>Editar Senha</span>
                     </NavLink>
+                    <Separator />
+                    <div className="toggle">
+                        <span>Modo Escuro?</span>
+                        <Switch />
+                    </div>
                     <Separator />
                     <NavLink to="/login">
                         <SignOut size={20} />

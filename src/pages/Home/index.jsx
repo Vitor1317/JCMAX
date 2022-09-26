@@ -33,15 +33,15 @@ export function Home(){
                 </div>
                 <Separator />        
                 <FlexRow>
-                    <Card flexWidth={3} bg="yellow7">
+                    <Card flexWidth={3} bg="card">
                         <span>Comissões</span>
                         <h2>R$0,00</h2>
                     </Card>
-                    <Card flexWidth={3} bg="yellow7">
+                    <Card flexWidth={3} bg="card">
                         <span>Captações</span>
                         <h2>R$0,00</h2>
                     </Card>
-                    <Card flexWidth={3} bg="yellow7">
+                    <Card flexWidth={3} bg="card">
                         <span>Exclusividades</span>
                         <h2>R$0,00</h2>
                     </Card>
@@ -55,15 +55,15 @@ export function Home(){
                 </div>
                 <Separator />        
                 <FlexRow>
-                    <Card flexWidth={3} bg="yellow7">
+                    <Card flexWidth={3} bg="card">
                         <span>Comissões</span>
                         <h2>R$0,00</h2>
                     </Card>
-                    <Card flexWidth={3} bg="yellow7">
+                    <Card flexWidth={3} bg="card">
                         <span>Captações</span>
                         <h2>R$0,00</h2>
                     </Card>
-                    <Card flexWidth={3} bg="yellow7">
+                    <Card flexWidth={3} bg="card">
                         <span>Exclusividades</span>
                         <h2>R$0,00</h2>
                     </Card>
@@ -79,42 +79,42 @@ export function Home(){
                 </div>
                 <Separator />        
                 <FlexRow>
-                    <Card direction flexWidth={3} bg="yellow7">
+                    <Card direction flexWidth={3} bg="yellow6" fontColor="gray1">
                         <Money size={24} />
                         <div className="flexicon">
                             <small>VGV(R$)</small>
                             <h2>0</h2>
                         </div>
                     </Card>
-                    <Card direction flexWidth={3} bg="blue5">
+                    <Card direction flexWidth={3} bg="blue5" fontColor="gray1">
                         <Handshake size={24} />
                         <div className="flexicon">
                             <small>VENDAS</small>
                             <h2>0</h2>
                         </div>
                     </Card>
-                    <Card direction flexWidth={3} bg="yellow7">
+                    <Card direction flexWidth={3} bg="rosa" fontColor="gray1">
                         <UserPlus size={24} />
                         <div className="flexicon">
                             <small>EXCLUSIVIDADES</small>
                             <h2>0</h2>
                         </div>
                     </Card>
-                    <Card direction flexWidth={3} bg="blue5">
+                    <Card direction flexWidth={3} bg="roxo" fontColor="gray1">
                         <CurrencyCircleDollar size={24} />
                         <div className="flexicon">
                                 <small>CAPTAÇÕES</small>
                                 <h2>0</h2>
                         </div>
                     </Card>
-                    <Card direction flexWidth={3} bg="yellow7">
+                    <Card direction flexWidth={3} bg="green5" fontColor="gray1">
                         <Camera size={24} />
                         <div className="flexicon">
                             <small>ANÚNCIOS</small>
                             <h2>0</h2>
                         </div>
                     </Card>
-                    <Card direction flexWidth={3} bg="blue5">
+                    <Card direction flexWidth={3} bg="gray5" fontColor="gray1">
                         <Calculator size={24} />
                         <div className="flexicon">
                             <small>PROPOSTAS</small>
@@ -131,42 +131,42 @@ export function Home(){
                 </div>
                 <Separator />        
                 <FlexRow>
-                    <Card direction flexWidth={3} bg="yellow7">
+                    <Card direction flexWidth={3} bg="yellow6" fontColor="gray1">
                         <Money size={24} />
                         <div className="flexicon">
                             <small>VGV(R$)</small>
                             <h2>0</h2>
                         </div>
                     </Card>
-                    <Card direction flexWidth={3} bg="blue5">
+                    <Card direction flexWidth={3} bg="blue5" fontColor="gray1">
                         <Handshake size={24} />
                         <div className="flexicon">
                             <small>VENDAS</small>
                             <h2>0</h2>
                         </div>
                     </Card>
-                    <Card direction flexWidth={3} bg="yellow7">
+                    <Card direction flexWidth={3} bg="rosa" fontColor="gray1">
                         <UserPlus size={24} />
                         <div className="flexicon">
                             <small>EXCLUSIVIDADES</small>
                             <h2>0</h2>
                         </div>
                     </Card>
-                    <Card direction flexWidth={3} bg="blue5">
+                    <Card direction flexWidth={3} bg="roxo" fontColor="gray1">
                         <CurrencyCircleDollar size={24} />
                         <div className="flexicon">
                                 <small>CAPTAÇÕES</small>
                                 <h2>0</h2>
                         </div>
                     </Card>
-                    <Card direction flexWidth={3} bg="yellow7">
+                    <Card direction flexWidth={3} bg="green5" fontColor="gray1">
                         <Camera size={24} />
                         <div className="flexicon">
                             <small>ANÚNCIOS</small>
                             <h2>0</h2>
                         </div>
                     </Card>
-                    <Card direction flexWidth={3} bg="blue5">
+                    <Card direction flexWidth={3} bg="gray5" fontColor="gray1">
                         <Calculator size={24} />
                         <div className="flexicon">
                             <small>PROPOSTAS</small>

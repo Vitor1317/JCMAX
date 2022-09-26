@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
         height: 3rem;
         padding: 0.5rem;
         border-radius: 8px;
-        border: 3px solid ${({theme})=> theme.gray6};
+        border: 3px solid ${({theme})=> theme.bg};
         background: ${({theme})=> theme.gray3};
         font-size: 1.2rem;
     }

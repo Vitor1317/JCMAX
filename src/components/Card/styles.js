@@ -12,10 +12,13 @@ export const CardContainer = styled.div`
     flex-direction: ${({direction})=> direction ? "row" : "column"};
     align-items: ${({direction})=> direction ? "center" : "none"};
     justify-content: ${({direction})=> direction ? "space-around" : "none"};
-    background-color: ${({theme, bg})=> bg ? theme[bg] : theme.gray8};
+    background-color: ${({theme, bg})=> bg ? theme[bg] : theme.bg};
+    color: ${({theme, font})=> font ? theme[font] : ""};
     width: ${({flexWidth})=> modifier[flexWidth]};
     padding: 1rem;
     margin-top: 1rem;
-    box-shadow: 0.5rem 0.5rem 1rem ${({theme, bg})=>bg ? "none" : theme.gray6}, -0.5rem -0.5rem 1rem ${({theme, bg})=>bg ? "none" : theme.gray6};
+    box-shadow: 0.5rem 0.5rem 1rem ${({theme, bg})=>bg ? "none" : theme.card}, -0.5rem -0.5rem 1rem ${({theme, bg})=>bg ? "none" : theme.card};
     border-radius: 8px;
+
+    transition: 0.2s;
 `;

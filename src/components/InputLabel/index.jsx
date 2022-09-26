@@ -6,7 +6,7 @@ export function InputLable({title, valor}){
 
     return (
         <Wrapper>
-            <strong>{title}</strong>
+            <h3>{title}</h3>
             <input type="text" value={value} onChange={(e)=> setValue(e.target.value)} />
         </Wrapper>
     )

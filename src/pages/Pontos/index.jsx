@@ -34,6 +34,11 @@ const contentBody = [
         mes: "Março",
         pontos: "3465",
         total: "1230230"
+    },
+    {
+        mes: <h4>Total do trimestre:</h4>,
+        pontos: "",
+        total: "40000"
     }
 ]
 
@@ -46,7 +51,7 @@ const renderBody = (item, i) =>{
             <td>{item.pontos}</td>
             <td>{item.pontos}</td>
             <td>{item.pontos}</td>
-            <td>{item.total}</td>
+            <td style={{fontWeight: 600}}>{item.total}</td>
         </tr>
     )
 }

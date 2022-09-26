@@ -12,8 +12,8 @@ export const LayoutContainer = styled.div`
 export const MainContainer = styled.div`
     width: 100%;
     overflow: auto;
-    /* margin-left: 19rem; */
     padding: 0 3rem 3rem;
-    background: ${({theme})=> theme.gray7};
-    color: ${({theme})=> theme.gray1};
+    background: ${({theme})=> theme.card};
+    color: ${({theme})=> theme.color};
+    transition: 0.2s;
 `;

@@ -5,7 +5,7 @@ export const SidebarContainer = styled.div`
     width: ${({activeSidebar})=> !activeSidebar ? "fit-content" : "19rem"};
     height: 100vh;
 
-    background: ${({theme})=> theme.gray8};
+    background: ${({theme})=> theme.gray7};
     color: ${({theme})=> theme.gray1};
 
     display: flex;
@@ -105,5 +105,13 @@ export const ModalContent = styled.div`
         align-items: center;
         gap: 0.5rem;
         cursor: pointer;
+    }
+
+    div {
+        &.toggle{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
     }
 `;

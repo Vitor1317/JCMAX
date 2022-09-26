@@ -9,7 +9,7 @@ export function Progressbar(){
             </div>
             <div className="progress">
                 <progress max={100} value={75}>75%</progress>
-                <strong>Faltam apenas 25% para voce atingir sua meta</strong>
+                <strong>Faltam apenas 2000 ponto(s) para voce atingir se tornar <span>GOLD</span></strong>
             </div>
         </ProgressContainer>
     )

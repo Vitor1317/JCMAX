@@ -43,6 +43,6 @@ export const Container = styled.label`
     }
 
     input:checked + span {
-        background-color: teal;
+        background-color: ${({theme})=> theme.green5};
     }
 `;

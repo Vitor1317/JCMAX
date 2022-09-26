@@ -11,10 +11,10 @@ export const TableContainer = styled.div`
         min-width: 600px;
 
         th{
-            background-color: ${({theme})=> theme.gray6};
+            background-color: ${({theme})=> theme.th};
             padding: 1rem;
             text-align: center;
-            color: #fff;
+            color: inherit;
             font-size: 0.875rem;
             line-height: 1.6;
 
@@ -31,8 +31,8 @@ export const TableContainer = styled.div`
         }
 
         td {
-            background-color: #4F4F4F;
-            border-top: 4px solid ${({theme})=> theme.gray8};
+            background-color: ${({theme})=> theme.td};
+            border-top: 4px solid ${({theme})=> theme.bg};
             padding: 1rem;
             font-size: 0.875rem;
             line-height: 1.6;

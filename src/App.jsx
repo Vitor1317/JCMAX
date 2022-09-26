@@ -7,10 +7,20 @@ import { darkTheme, lightTheme } from "./styles/theme";
 
 export const ThemeContext = createContext(null);
 
+function chooseTheme(theme){
+    if(theme === "light"){
+      return lightTheme;
+    }
+
+    if(theme === "dark"){
+      return darkTheme;
+    }
+}
+
 export function App() {
   const [theme, setTheme] = useState("light");
 
-  const themeStyle = "light" ? lightTheme : darkTheme;
+  const themeStyle = chooseTheme(theme);
 
   return (
     <ThemeContext.Provider value={{setTheme, theme}}>

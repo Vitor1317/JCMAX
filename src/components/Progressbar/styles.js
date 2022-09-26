@@ -6,6 +6,7 @@ export const ProgressContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     background: ${({theme})=> theme.yellow7};
+    color: ${({theme})=> theme.gray1};
     border-radius: 8px;
     padding: 1rem;
 
@@ -21,6 +22,12 @@ export const ProgressContainer = styled.div`
             display: flex;
             flex-direction: column;
             align-items: center;
+
+            span {
+                color: ${({theme})=> theme.green5};
+                font-weight: 600;
+                font-size: 115%;
+            }
         }
 
         progress {
@@ -31,17 +38,17 @@ export const ProgressContainer = styled.div`
         }
 
         progress::-webkit-progress-bar{
-            background-color: ${({theme})=> theme.gray3};
-            border-radius: 8px;
-        }
-
-        progress::-webkit-progress-value{
             background-color: ${({theme})=> theme.gray1};
             border-radius: 8px;
         }
 
+        progress::-webkit-progress-value{
+            background-color: ${({theme})=> theme.green5};
+            border-radius: 8px;
+        }
+
         svg {
-            color: teal;
+            color: ${({theme})=> theme.color};
             margin: 1rem 2rem;
         }
     }

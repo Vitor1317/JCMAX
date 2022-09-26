@@ -7,14 +7,15 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
     body {
-        background: ${({ theme }) => theme.bg2};
-        color: ${({ theme }) => theme.text};
+        background: ${({ theme }) => theme.bg};
+        color: ${({ theme }) => theme.color};
         font-family: 'Roboto', sans-serif;
         letter-spacing: 0.6px;
     }
 
-    input, button {
+    body, input, button {
         font-family: 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased;
     }
 
     a {

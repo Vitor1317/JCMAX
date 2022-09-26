@@ -19,7 +19,7 @@ export const Content = styled.div`
     position: absolute;
     top: 0;
     left: calc(100% + 1.5rem);
-    top: -200%;
+    top: -300%;
     z-index: 10;
 
     &::before {
